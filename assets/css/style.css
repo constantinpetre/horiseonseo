@@ -3,11 +3,13 @@
   padding: 0;
   margin: 0;
 }
-
+/* BODY */
+/* Setting the color of the body to white/grey */
 body {
   background-color: #d9dcd6;
 }
-
+/* HEADER */
+/* Section for header styling, changing the font and the colors */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,16 +18,20 @@ header {
   color: #ffffff;
 }
 
+/* Setting the font size of the h1 from the header and setting the display to inline-block to show correctly */
+
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Setting the SEO section from the header of the text to grey */
+
 header h1 .seo {
   color: #d9dcd6;
 }
 
-header div {
+Setting the div fr header div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -42,15 +48,19 @@ header div ul li {
   margin-left: 25px;
 }
 
+/* Setting the color of the a tags to white  */
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* PARAGRAPHS */
+/* Setting the font size of the paragraphs  */
 p {
   font-size: 16px;
 }
 
+/* HERO IMAGE */
+/* Section for hero styling */
 .hero {
   height: 800px;
   width: 100%;
@@ -70,12 +80,16 @@ p {
   margin-left: 25px;
 }
 
+/* Setting the section box and display to show properly on the webpage  */
+
 section {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* ASIDE */
+/* Setting the selectors to show properly on the page */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -188,7 +202,8 @@ aside {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* FOOTER */
+/* Setting the footer boxing, font and alignment */
 footer {
   padding: 30px;
   clear: both;
